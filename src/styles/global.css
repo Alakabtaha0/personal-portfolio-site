@@ -7,3 +7,19 @@
 .bg-default {
     background-color: rgb(28, 28, 28);
 }
+
+.center-origin {
+    transform: translate(50%, 50%);
+}
+
+.co-2 {
+    transform: translate(-50%, -50%);
+}
+
+.sf-font {
+    background: linear-gradient(180deg, #75007f 0%, #ff4d00 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Permanent Marker', cursive;
+}

@@ -1,0 +1,48 @@
+#about {
+    margin-top: 100px;
+    padding: 0 100px;
+    text-align: center;
+    height: 90vh;
+}
+
+#about h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.info-layout {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items:baseline;
+    margin-top: 100px;
+}
+
+.info-layout div h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #8ab1ff;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.info-layout div ul {
+    list-style: none;
+    padding-top: 50px;
+    text-align: left;
+}
+
+.info-layout ul li span {
+    font-weight: light;
+    color: #008787;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.8em;
+}
+
+.info-layout ul li {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #ff38ac;
+    padding-top: 10px;
+}
