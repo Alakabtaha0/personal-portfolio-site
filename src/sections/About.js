@@ -23,7 +23,7 @@ const About = () => {
                         <li><span>Name  </span>Taha Al-Asadi</li>
                         <li><span>Age  </span>25</li>
                         <li><span>Location  </span>London</li>
-                        <li><span>Occupation  </span>Software Engineer</li>
+                        <li><span>Discipline  </span>Software Engineer</li>
                         <li><span>Role  </span>Full Stack Web Developer</li>
                         <li><span>Side Hustle  </span>Businessman</li>
                         <li><span>Currently Learning  </span>AI, SQL</li>
