@@ -1,0 +1,71 @@
+.card-format {
+    max-height: 300px;
+    max-width: 550px;
+    width: 550px;
+    height: 300px;
+    background-color: black;
+    border-radius: 15px;
+    border: 1px solid #bf66ff;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-img {
+    width: 50%;
+    padding: 10px;
+    padding-left: 30px;
+}
+
+.card-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.card-body {
+    width: 50%;
+    height: 100%;
+}
+
+.card-body h2 {
+    font-size: 0.9em;
+    margin: 20px 0;
+    color: #8ab1ff;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.card-body p {
+    font-size: 0.8em;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    margin-bottom: 20px;
+}
+
+.box-link {
+    text-decoration: none;
+}
+
+.tech-stack-format {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    gap: 2px;
+}
+
+.tech-stack-child {
+    padding: 6px 10px 30px;
+    background-color: blue;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.tech-stack-child p {
+    font-family: 'Oswald', sans-serif;
+    font-weight: light;
+    font-size: 0.9em;
+    margin: 0;
+}
