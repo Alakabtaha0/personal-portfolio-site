@@ -40,7 +40,7 @@ const Home = () => {
                 </a>
                 <div className='neon-line'></div>
             </div>
-            <a href='/downloads/download.svg' download>
+            <a href='/downloads/Taha Al-Asadi Resume.pdf' download>
                 <div className='download-button neon-border'>
                     <img src={Download} alt='download-link' />
                     <p>DOWNLAOD MY CV</p>
