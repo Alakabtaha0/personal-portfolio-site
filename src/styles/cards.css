@@ -43,6 +43,13 @@
     margin-bottom: 20px;
 }
 
+.card-body p:nth-child(4) {
+    font-size: 0.8em;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    margin-bottom: 10px;
+}
+
 .box-link {
     text-decoration: none;
 }
@@ -50,15 +57,14 @@
 .tech-stack-format {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     width: 100%;
     height: 90px;
-    gap: 2px;
+    gap: 7px;
 }
 
 .tech-stack-child {
     padding: 6px 10px 30px;
-    background-color: blue;
+    background: linear-gradient(180deg, #d000ff 0%, #ff67bf 100%);
     height: 30px;
     border-radius: 5px;
 }
