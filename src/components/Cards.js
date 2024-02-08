@@ -3,7 +3,7 @@ import '../styles/cards.css';
 
 const Cards = ({ link, imageSrc, title, description, dateCompleted, techStack }) => {
     return (
-        <a className='box-link' href={link} target='_blank'>
+        <a className='box-link' href={link} target='_blank' rel='noreferrer'>
             <div className='card-format'>
                 <div className='card-img'>
                     <img src={imageSrc} alt='templ' />

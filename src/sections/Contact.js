@@ -3,7 +3,7 @@ import '../styles/contact.css'
 
 const Contact = () => {
     const [sending, setSending] = useState(false)
-    let data = {}
+    let data;
 
     const handleSubmit = () => {
         setSending(send => !send);
@@ -20,6 +20,7 @@ const Contact = () => {
             email,
             message
         };
+        console.log(data);
         setTimeout(() => {
             setSending(send => !send);
         }, 3000);

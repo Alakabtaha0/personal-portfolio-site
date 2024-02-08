@@ -32,10 +32,10 @@ const Home = () => {
             </div>
             <div className='social-container co-2'>
                 <div className='neon-line'></div>
-                <a href='https://github.com/Alakabtaha0' target='_blank'>
+                <a href='https://github.com/Alakabtaha0' target='_blank' rel='noreferrer'>
                     <img className='svg-icon-neon' src={Github} alt='github-link' />
                 </a>
-                <a href='https://www.linkedin.com/in/taha-al-asadi-98326a261' target='_blank'>
+                <a href='https://www.linkedin.com/in/taha-al-asadi-98326a261' target='_blank' rel='noreferrer'>
                     <img className='svg-icon-neon' src={LinkedIn} alt='linkedin-link' />
                 </a>
                 <div className='neon-line'></div>
