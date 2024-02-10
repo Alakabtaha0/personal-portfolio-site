@@ -1,11 +1,12 @@
 import React, { useState } from 'react'
 import '../styles/contact.css'
+import axios from 'axios';
 
 const Contact = () => {
     const [sending, setSending] = useState(false)
     let data;
 
-    const handleSubmit = () => {
+    const handleSubmit = async () => {
         setSending(send => !send);
         let name = document.querySelector('#name').value;
         let email = document.querySelector('#email').value;
@@ -20,11 +21,24 @@ const Contact = () => {
             email,
             message
         };
-        console.log(data);
-        setTimeout(() => {
-            setSending(send => !send);
-        }, 3000);
-        
+        try {
+            const response = await axios.post('http://16.171.27.220:3000/api/v1/mail', data, {
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            });
+            if (response.status === 200) {
+                alert('Message Sent');
+                setSending(false);
+            } else if (response.status === 500 || response.status === 400) {
+                alert("Something went wrong, we couldn't send your message. Please try again later.");
+                setSending(false);
+            }
+        } catch (error) {
+            console.error(error);
+            setSending(false);
+        }
+
     }
 
     return (
