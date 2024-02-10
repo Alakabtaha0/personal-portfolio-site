@@ -22,7 +22,7 @@ const Contact = () => {
             message
         };
         try {
-            const response = await axios.post('http://16.171.27.220:3000/api/v1/mail', data, {
+            const response = await axios.post('https://16.171.27.220:3000/api/v1/mail', data, {
                 headers: {
                     'Content-Type': 'application/json'
                 }
